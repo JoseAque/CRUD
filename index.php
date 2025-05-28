@@ -108,12 +108,12 @@
         "serverSide": true,
         "order": [],
         "ajax": {
-          url: "obtener_registros.php",
+          url: "inc/obtener_registros.php",
           type: "POST"
         },
         "columsDefs": [{
           "targets": [0, 3, 4],
-          "ordeable": false,
+          "orderable": false,
         }, ]
       });
     });
