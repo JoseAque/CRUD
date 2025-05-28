@@ -13,7 +13,7 @@ function subir_imagen()
 
 function obtener_nombre_imagen($id_usuario)
 {
-    include 'conexion.php';
+    include('conexion.php');
     $stmt = $conexion->prepare("SELECT imagen FROM usuarios WHERE id_usuario = '$id_usuario'");
     $stmt->execute();
     $resultado = $stmt->fetchAll();
@@ -24,10 +24,9 @@ function obtener_nombre_imagen($id_usuario)
 
 function obtener_todos_registros()
 {
-    include 'conexion.php';
+    include('conexion.php');
     $stmt = $conexion->prepare("SELECT * FROM usuarios");
     $stmt->execute();
     $resultado = $stmt->fetchAll();
     return $stmt->rowCount();
 }
-
