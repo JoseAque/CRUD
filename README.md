@@ -29,5 +29,4 @@ git clone https://github.com/JoseAque/CRUD.git
 
 5. **Finalmente navegar a `localhost/crud/` para ver el proyecto.**
 
-![image](https://github.com/user-attachments/assets/c68f3469-adee-49e1-9421-a58d9143b19d)
-
+![image](https://github.com/user-attachments/assets/0c834dae-57bf-4ab7-83f3-42ac4c18b69a)
