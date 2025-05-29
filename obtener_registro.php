@@ -15,9 +15,9 @@ if (isset($_POST["id_usuario"])) {
 
         if ($fila["imagen"] != "") {
             $salida["imagen_usuario"] = '<img src="img/' . $fila["imagen"] . '" class="img-thumbnail" width="100" height="50" />
-                <input type="hidden" name="imagen_usuario_oculta" value="' . $fila["imagen"] . '"';
+                <input type="hidden" name="imagen_usuario_oculta" value="' . $fila["imagen"] . '"/>';
         } else {
-            $salida["imagen_usuario"] = '<input type="hidden" name="imagen_usuario_oculta" value="'.$fila["imagen"].'"';
+            $salida["imagen_usuario"] = '<input type="hidden" name="imagen_usuario_oculta" value=""/>';
         }
     }
 
